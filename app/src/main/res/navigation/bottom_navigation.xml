@@ -13,4 +13,8 @@
         android:id="@+id/home_fav"
         android:name="com.cherrio.leap.features.fav.FavoriteFragment"
         android:label="FavoriteFragment" />
+    <fragment
+        android:id="@+id/home_gallery"
+        android:name="com.cherrio.leap.features.gallery.GalleryFragment"
+        android:label="GalleryFragment" />
 </navigation>

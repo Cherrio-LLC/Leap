@@ -1,4 +1,5 @@
 package com.cherrio.leap.data.model
 
-class Images {
-}
+import android.net.Uri
+
+data class Images(val uri: Uri,val name: String)
